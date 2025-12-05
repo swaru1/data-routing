@@ -2,7 +2,6 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import HomeLayout from "../Layouts/HomeLayout";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import App from "../App";
 
 const AppRouter = () => {
   let router = createBrowserRouter([
@@ -13,12 +12,6 @@ const AppRouter = () => {
         {
             path: "/home",
             Component: Home,
-            children: [
-              {
-                path: "app",
-                Component: App,
-              }
-            ]
         },
         {
             path: "/about",

@@ -21,14 +21,6 @@ const HomeLayout = () => {
           >
             About
           </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "text-purple-700 font-semibold" : ""
-            }
-            to="/home/app"
-          >
-            App
-          </NavLink>
         </div>
         Navbar
       </nav>
