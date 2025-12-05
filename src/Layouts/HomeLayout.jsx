@@ -3,11 +3,9 @@ import Navbar from "../components/Navbar";
 
 const HomeLayout = () => {
   return (
-    <div className="bg-stone-200 p-5">
+    <div className="bg-stone-200 h-screen p-5">
       <Navbar/>
-      <div>
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   );
 };

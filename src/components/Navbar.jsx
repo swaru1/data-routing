@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-300 px-20 mb-4 flex  gap-5 justify-between">
+    <nav className="bg-gray-300 px-20 mb-4 flex  gap-5 justify-between p-3">
       <div className="links flex gap-4">
         <NavLink
           className={({ isActive }) =>
